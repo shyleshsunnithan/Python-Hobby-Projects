@@ -9,5 +9,5 @@ print(pdfReader.numPages)
 pageObj = pdfReader.getPage(0)
 
 print(pageObj.extractText())
-
+ 
 pdfFileObj.close()
